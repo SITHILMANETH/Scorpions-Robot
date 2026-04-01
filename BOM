@@ -1,0 +1,47 @@
+# Bill of Materials (BOM)
+
+## 🧠 Controller & Electronics
+| Item                     | Quantity | Description |
+|--------------------------|----------|-------------|
+| ESP32 Dev Board          | 1        | Main microcontroller with Wi-Fi/Bluetooth |
+| PCA9685 Servo Driver     | 1        | 16-channel PWM driver for servos |
+| BH1750 Light Sensor      | 1        | Ambient light sensor (I2C) |
+| Jumper Wires             | 20+      | Male-to-male / female connections |
+| Breadboard / PCB         | 1        | Prototyping connections |
+
+## ⚙️ Actuators
+| Item                     | Quantity | Description |
+|--------------------------|----------|-------------|
+| Servo Motors (MG90S/MG996R) | 8–12  | For leg movement |
+| High Torque Servo (optional) | 1–2  | For future upgrades (tail/extra load) |
+
+## 🔋 Power System
+| Item                     | Quantity | Description |
+|--------------------------|----------|-------------|
+| Li-ion Battery (7.4V)    | 1        | Power source |
+| Voltage Regulator (5V)   | 1        | Stable supply for servos |
+| Power Switch             | 1        | On/Off control |
+| Charging Module          | 1        | Battery charging (TP4056 or similar) |
+
+## 🦾 Mechanical Parts
+| Item                     | Quantity | Description |
+|--------------------------|----------|-------------|
+| 3D Printed Body Frame    | 1        | Main robot chassis |
+| 3D Printed Legs          | 4        | Quadruped legs |
+| Screws & Nuts (M2/M3)    | Set      | Assembly hardware |
+| Bearings (optional)      | 4–8      | Smooth joint movement |
+
+## 🧪 Development & Tools
+| Item                     | Quantity | Description |
+|--------------------------|----------|-------------|
+| USB Cable (Type-C/Micro) | 1        | Programming ESP32 |
+| Laptop / PC              | 1        | Development environment |
+| Wokwi Simulator          | -        | Virtual testing |
+
+## 🔮 Future Upgrades (Optional)
+| Item                     | Quantity | Description |
+|--------------------------|----------|-------------|
+| Extra Servos             | 2–4      | For hexapod upgrade |
+| Camera Module (ESP32-CAM)| 1        | Video streaming |
+| IMU Sensor (MPU6050)     | 1        | Balance & orientation |
+| Wi-Fi Server Module      | 1        | Remote control system |
